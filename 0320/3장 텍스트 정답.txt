@@ -1,0 +1,46 @@
+중간점검 3-1 116p
+
+1-1. 순차 구조
+1-2. 선택 구조
+1-3. 반복 구조
+2-1. 제어문은 조건문과 반복문으로 나누어진다.
+
+중간점검 3-2 120p
+
+1. 블록
+2. True, False
+3. else
+
+중간점검 3-3 124p
+
+1. Ture False 부울값이다.
+2. 참이 되기 힘들기 때문이다. 컴퓨터에서는 비트의 수가 제한되어 있으므로 복잡한 값은 정확하게 표현되지 않기 때문이다.
+
+중간점검 3-4 132p
+
+1. age >= 25 and salary >= 3500
+2. False
+
+exercise 148p
+
+1. false
+2. 2
+3.	a: if speed >= 60 and speed <= 100: print("정상 속도")
+	b: max = x if x > y else y, min = y if x > y else x
+	c: if op == 1: print("one")
+	  elif op == 2: print("two")
+  	  elif op == 3: print("three")
+4.	a: if x > 10 and x < 20: print(x)
+	b: if x < 10 or x > 20: print(x)
+5. age가 20이상이면 "20살 이상" 이라고 표기되고 age가 20미만이면 "20살 미만이라고 출력된다.
+6. if x == y:
+7.	temp = int(input("온도를  입력하시오: "))
+	if temp < 0:
+		state = "얼음"
+	else:
+		state = "기체"
+	print(state)
+8. 	(if not heated)가 더 가독성이 높다. 이유는 not이라는 키워드가 영어문장에서 자연스럽게 읽히기 때문이다.
+9. print("음수를 입력하면 안됩니다.")가 if 구절 밖에 있어서 그 부분이 잘못되었다, else를 사용했어야 했기 때문이다.
+10. if city != "서울" and city != "부산":
+11. a가 효율성이 더 뛰어나다. 
