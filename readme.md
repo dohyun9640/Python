@@ -116,7 +116,6 @@ def hello():
 ```
 def greet(name):
     print(name, "님 안녕하세요")
-
 ```
 
 함수는 결과값을 돌려줄 수도 있다. 이때 return을 사용한다.
